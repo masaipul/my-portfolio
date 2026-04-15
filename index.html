@@ -1,62 +1,57 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya | Nama Anda</title>
+    <title>Saiful Rohman | Professional Photographer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <nav>
-        <div class="logo">PORTFOLIO.</div>
-        <ul>
+        <div class="logo">SAIFUL<span>ROHMAN</span></div>
+        <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Kontak</a></li>
         </ul>
+        <div class="theme-toggle" id="theme-btn">
+            <i class="fas fa-moon"></i>
+        </div>
     </nav>
 
-    <header id="home">
+    <header id="home" class="hero">
         <div class="hero-content">
-            <h1>Halo, Saya <span>Nama Anda</span></h1>
-            <p>Web Developer | Designer | Tech Enthusiast</p>
+            <h1>Menangkap Esensi dalam <br><span>Satu Bingkai</span></h1>
+            <p>Fotografer Profesional dengan spesialisasi Visual Storytelling.</p>
             <a href="#projects" class="btn">Lihat Karya</a>
         </div>
     </header>
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang pengembang yang berfokus pada menciptakan pengalaman digital yang bersih dan fungsional. Saya suka belajar teknologi baru dan memecahkan masalah melalui kode.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Proyek Pilihan</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300" alt="Project 1">
-                <h3>E-Commerce Web</h3>
-                <p>Membangun toko online responsif dengan integrasi pembayaran.</p>
+    <section id="projects" class="portfolio">
+        <h2>Selected Projects</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=1000" alt="Work 1">
+                <div class="overlay"><span>Editorial</span></div>
             </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300" alt="Project 2">
-                <h3>UI/UX Design</h3>
-                <p>Desain aplikasi mobile untuk manajemen keuangan pribadi.</p>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=1000" alt="Work 2">
+                <div class="overlay"><span>Portrait</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000" alt="Work 3">
+                <div class="overlay"><span>Nature</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1000" alt="Work 4">
+                <div class="overlay"><span>Commercial</span></div>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
-        <h2>Mari Terhubung</h2>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-        <p>&copy; 2026 Nama Anda. Dibuat dengan semangat.</p>
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
